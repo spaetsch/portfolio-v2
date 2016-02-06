@@ -1,26 +1,13 @@
-/* ---- SKILLS ---- */
+/* -- customizing Bootstrap progress bars for skill section -- */
 
-.skill-bar {
-  background-color: #f0f0f0;
-  width: 100%;
-  height: 2.5em;
-  border-radius: 1em;
-  margin-bottom: 1em;
-
--webkit-box-shadow: inset -5px 5px 10px 0px rgba(224,224,224,1);
--moz-box-shadow: inset -5px 5px 10px 0px rgba(224,224,224,1);
-box-shadow: inset -5px 5px 10px 0px rgba(224,224,224,1);
+.progress {
+  height: 2em;
 }
-.skill-bar p {
-  color: white;
-  font-size: 1.5em;
-  padding-left: 0.5em;
-  padding-top:0.1em;
-}
-.skill-rating {
-  background-color: blue;
-  height: 2.5em;
-  z-index: 100;
+.progress-bar {
+  font-size: 1.25em;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 1.5em;
 }
 .lvl-9 {
   width: 90%;
