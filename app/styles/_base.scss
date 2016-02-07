@@ -58,8 +58,9 @@ ul {
   text-align: center;
 }
 .modal-img img {
-  margin: 0 1em;
-  display: inline-block;
+  // margin: 0 1em;
+  // display: inline-block;
+  width: 90%;
 }
 @media screen and (min-width: 768px) {
   #myModal .modal-dialog  {width:700px;}
