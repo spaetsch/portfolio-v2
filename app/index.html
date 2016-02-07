@@ -42,9 +42,6 @@
           </div>
        </div>
         <div id="navbar" class="collapse navbar-collapse">
-<!--           <div class="row">
- -->
-
             <div class="col-md-5">
               <p class="navbar-text">I am a front-end web developer who likes to create products that inform and delight users, as well as help them achieve their goals.</p>
             </div>
@@ -57,8 +54,7 @@
           </div>
           </div><!--/.nav-collapse -->
         </div>
-<!--       </div>
- -->    </nav>
+     </nav>
 
     <!-- Begin page content -->
     <a name="projects"></a>
@@ -72,7 +68,7 @@
             <div class="overlay-content">
               <h2>SLU Virtual Tours</h2>
               <p>Provides users with travel inspiration in photos and articles</p>
-              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal1">
                 Details
               </button>
               <a type="button" class="btn btn-primary btn-sm" href="http://kmskelton.github.io/" target="_blank" >
@@ -87,7 +83,7 @@
       </div>
 
       <!-- Corresponding Modal -->
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -136,13 +132,71 @@
       <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="hovereffect">
           <img class ="img-responsive" src="img/SC-full.jpg">
-          <div class="overlay">
-             <h2>Project Name</h2>
-             <p>Some info about the project</p>
-             <a class="info" href="#">More</a>
+          <div class="overlay centered">
+            <div class="overlay-content">
+              <h2>Surplus Connection</h2>
+              <p>Web app that connects nonprofits with donors of surplus goods and shipping space</p>
+              <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal2">
+                Details
+              </button>
+              <a type="button" class="btn btn-primary btn-sm" href="http://kmskelton.github.io/" target="_blank" >
+                Try It!
+              </a>
+              <a type="button" class="btn btn-primary btn-sm" href="https://github.com/KMSkelton/virtualTour" target="_blank">
+                Github
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+<!-- Corresponding Modal -->
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Surplus Connection</h4>
+            </div>
+            <div class="modal-body">
+              <h5>Overview</h5>
+              <ul>
+                <li>Web app that connects nonprofits with donors of surplus goods and shipping space</li>
+                <li>Built from concept to completion in four days by a team of four</li>
+              </ul>
+              <div class="modal-img">
+                <img class="img" src="img/SC-nonprof.jpg">
+              </div>
+              <h5>Description</h5>
+              <p>After logging in, the app displays a portal appropriate to the user's role: surplus goods donor, shipping space donor, or non-profit. In each portal, the user can either post to the site: surplus and shipping donors can post donations and non-profits can post to their wish list. Alternately users can search what's already been posted by other users to see if they can fulfill a need or claim a donation. For instance, a non-profit can search for "shoes" that can be delivered to "nigeria". The app can check if there's a match and return results that show Macy's has donated shoes and DHL has donated shipping service that can pick it up at Macy's and deliver it to Nigeria. Then the non-profit can claim that match and get their need fulfilled.</p>
+              <h5>Technologies</h5>
+              <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>AngularJS</li>
+                    <li>Sass</li>
+                    <li>Bourbon</li>
+                    <li>Neat</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <div class="col-md-9">
+                  <ul>
+                    <li>I implemented the <mark>AngularJS</mark> data binding, templates, and controllers used throughout the app</li>
+                    <li>I contributed to the style and layout of the site using <mark>Sass</mark> and <mark>Neat</mark></li>
+                  </ul>
+                </div>
+              </div>
+            <div class="modal-footer">
+              <a type="button" class="btn btn-primary" href="https://surplusconnection.herokuapp.com/" target="_blank" >Try It!</a>
+              <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/surplusconnection" target="_blank" >Github</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--Modal-->
+
 
       <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="hovereffect">
