@@ -4,28 +4,30 @@
 }
 
 /* ---- NAV / HEADER ---- */
-.navbar,
+
+.navbar-inverse p,
 .navbar-inverse .navbar-text,
-.navbar-inverse .navbar-nav > li > a  {
+.navbar-inverse .navbar-nav > li > a {
   color: white;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   color: $bright;
 }
 
-.myname{
+
+.navbar-brand .name {
   font-family: Andada;
-  font-size: 1.75em;
-  padding-top: 0.5em;
-  // font-weight: bold;
+  font-size: 1.25em;
 }
+
 h2 {
     font-family: Andada;
 
 }
 body{
   font-family: Quicksand;
-  padding-top: 15em;
+  padding-top: 0;
+  // padding-top: 15em;
 }
 
 .navbar-inverse {
@@ -33,7 +35,7 @@ body{
 }
 
 .navbar {
-  height:14em;
+  // height:14em;
 }
 
 /* more colors */
