@@ -25,10 +25,15 @@ h2 {
 }
 body{
   font-family: Quicksand;
+  padding-top: 15em;
 }
 
 .navbar-inverse {
   background: linear-gradient(125deg, $main, $analog1);
+}
+
+.navbar {
+  height:14em;
 }
 
 /* more colors */
