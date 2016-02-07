@@ -20,22 +20,21 @@
   font-size: 1.25em;
 }
 
-h2 {
+h1, h2, h3, h4, h5 {
     font-family: Andada;
 
 }
 body{
   font-family: Quicksand;
   padding-top: 0;
-  // padding-top: 15em;
 }
 
 .navbar-inverse {
   background: linear-gradient(125deg, $main, $analog1);
 }
 
-.navbar {
-  // height:14em;
+ul {
+  padding-left:1.3em;
 }
 
 /* more colors */
@@ -43,25 +42,14 @@ body{
 .progress-bar {
   background-color: $analog2;
 }
-.btn {
+.btn-primary {
   background-color: $analog3;
   border-color: $analog3;
 }
-.btn:hover {
+.btn-primary:hover {
   background-color: $analog1;
 }
 
-/* ---- HERO ---- */
-
-// .jumbotron {
-//   background: url(../img/lights-flip.jpg) no-repeat center;
-//   height: 100%;
-//   color: white;
-//   text-align: center;
-// }
-// .jumbotron p {
-//   text-align: left;
-// }
 
 /* ---- PROJECTS ---- */
 
@@ -73,7 +61,12 @@ body{
   margin: 0 1em;
   display: inline-block;
 }
-
+@media screen and (min-width: 768px) {
+  #myModal .modal-dialog  {width:700px;}
+}
+mark {
+  background-color: $highlight;
+}
 
 /* ---- CONTACTS ---- */
 
