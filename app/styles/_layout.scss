@@ -3,20 +3,25 @@
   margin-top: 3em;
 
 }
-
 .sidebar-box {
   border-radius: 10px;
   padding: 1em 2em;
   margin: 1em 0;
 }
-.sidebar li {
-  display: inline;
+.nav > li > a {
   font-size: 1em;
+  float: left;
+  text-align: center;
+  width: 33%;
 }
-@media screen and (min-width: 768px) {
-  .sidebar li {
+
+@media screen and (min-width: 992px) {
+  .nav > li > a {
+    padding-left: 1em;
     font-size: 1.5em;
-    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
   }
 }
 
