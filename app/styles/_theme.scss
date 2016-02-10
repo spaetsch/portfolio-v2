@@ -31,3 +31,6 @@ mark {
 .sidebar-box a:hover {
   color: lightgray;
 }
+.nav > li > a:hover {
+  background-color: $highlight;
+}
