@@ -1,95 +1,15 @@
 /* ---- OVERALL ---- */
+
+ul {
+  padding-left:1.3em;
+}
+
+/* ---- HELPER ---- */
+
 .mt {
   margin-top: 1em;
 }
 
 
 
-ul {
-  padding-left:1.3em;
-}
-
-
-
-/* more colors */
-
-.progress-bar {
-  background-color: $analog2;
-}
-.btn-primary {
-  background-color: $analog3;
-  border-color: $analog3;
-}
-.btn-primary:hover {
-  background-color: $analog1;
-}
-
-
-/* ---- PROJECTS ---- */
-
-/* Projects - modals */
-.modal-img {
-  text-align: center;
-}
-.modal-img img {
-  width: 90%;
-}
-@media screen and (min-width: 768px) {
-  #myModal .modal-dialog  {width:700px;}
-}
-mark {
-  background-color: $highlight;
-}
-
-/* ---- CONTACTS ---- */
-
-.contact-links {
-  text-align: center;
-}
-.contact-links button {
-  min-width: 10em;
-  margin-bottom: 1em;
-  margin-right: 1em;
-}
-
-
-/* ---- FOOTER ---- */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-// body > .container {
-//   padding: 60px 15px 0;
-// }
-// .container .text-muted {
-//   margin: 20px 0;
-// }
-
-// .footer > .container {
-//   padding-right: 15px;
-//   padding-left: 15px;
-// }
-
-// code {
-//   font-size: 80%;
-// }
 

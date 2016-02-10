@@ -6,6 +6,20 @@ body {
   padding-top: 0;
 }
 
+.progress-bar {
+  background-color: $analog2;
+}
+.btn-primary {
+  background-color: $analog3;
+  border-color: $analog3;
+}
+.btn-primary:hover {
+  background-color: $analog1;
+}
+
+mark {
+  background-color: $highlight;
+}
 
 /* ---- NAV / HEADER ---- */
 
