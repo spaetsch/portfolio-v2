@@ -56,7 +56,7 @@
                   <div class="overlay-content">
                     <h2>SLU Virtual Tours</h2>
                     <p>Provides travel inspiration with photos and articles</p>
-                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal1">
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-sluvt">
                       Details
                     </button>
                     <a type="button" class="btn btn-primary btn-xs" href="http://kmskelton.github.io/" target="_blank" >
@@ -71,7 +71,7 @@
             </div>
 
             <!-- Corresponding Modal -->
-            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade" id="modal-sluvt" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -124,7 +124,7 @@
                   <div class="overlay-content">
                     <h2>Surplus Connection</h2>
                     <p>Connects nonprofits with donors and shipping</p>
-                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal2">
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-SC">
                       Details
                     </button>
                     <a type="button" class="btn btn-primary btn-xs" href="http://kmskelton.github.io/" target="_blank" >
@@ -139,7 +139,7 @@
             </div>
 
             <!-- Corresponding Modal -->
-            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade" id="modal-SC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -191,20 +191,63 @@
                 <div class="overlay centered">
                   <div class="overlay-content">
                     <h2>Neighborhood Map</h2>
-                    <p>Maps points of interest and displays reviews</p>
-                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal2">
+                    <p>Maps points of interest and displays their reviews</p>
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-map">
                       Details
                     </button>
-                    <a type="button" class="btn btn-primary btn-xs" href="http://kmskelton.github.io/" target="_blank" >
+                    <a type="button" class="btn btn-primary btn-xs" href="http://www.sarahpaetsch.com/map/map.html" target="_blank" >
                       Try It!
                     </a>
-                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/KMSkelton/virtualTour" target="_blank">
+                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/spaetsch/UFEND-Neighborhood-Map-Project" target="_blank">
                       Github
                     </a>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Corresponding Modal -->
+            <div class="modal fade" id="modal-map" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Neighborhood Map</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Overview</h5>
+                    <ul>
+                      <li>Web app that maps points of interest in Queen Anne (a Seattle neighborhood) and displays their reviews</li>
+                      <li>Solo project</li>
+                    </ul>
+                    <div class="modal-img">
+                      <img class="img" src="img/map-search.jpg">
+                    </div>
+                    <h5>Description</h5>
+                    <p>The app displays a number of points of interest in the Queen Anne neighborhood of Seattle using Google Maps. Using the search box, the user can limit results by business name or type. The app updates the list and markers as the user types. Clicking a button in the list will animate the appropriate marker. Clicking a marker will display details from Yelp.</p>
+                    <h5>Technologies</h5>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <ul>
+                          <li>Google Maps API</li>
+                          <li>Yelp API</li>
+                          <li>knockout.js</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-9">
+                        <ul>
+                          <li>I implemented all of the <mark>API calls</mark>, <mark>knockout.js</mark> data-binding, design, and functionality in this solo project.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  <div class="modal-footer">
+                    <a type="button" class="btn btn-primary" href="http://www.sarahpaetsch.com/map/map.html" target="_blank" >Try It!</a>
+                    <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/UFEND-Neighborhood-Map-Project" target="_blank" >Github</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div><!--Modal-->
 
             <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12">
               <div class="hovereffect">
@@ -253,7 +296,7 @@
                 <img class ="img-responsive" src="http://fillmurray.com/800/600">
                 <div class="overlay centered">
                   <div class="overlay-content">
-                    <h2>Coming soon!</h2>
+                    <h2>This Portfolio</h2>
                     <p>working on junk</p>
                   </div>
                 </div>
