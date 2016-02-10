@@ -5,7 +5,6 @@ body {
   font-family: Quicksand;
   padding-top: 0;
 }
-
 .progress-bar {
   background-color: $analog2;
 }
@@ -16,28 +15,19 @@ body {
 .btn-primary:hover {
   background-color: $analog1;
 }
-
 mark {
   background-color: $highlight;
 }
-
-/* ---- NAV / HEADER ---- */
-
-// .navbar-inverse p,
-// .navbar-inverse .navbar-text,
-// .navbar-inverse .navbar-nav > li > a {
-//   color: white;
-// }
-// .navbar-inverse .navbar-nav > li > a:hover {
-//   color: $bright;
-// }
-// .navbar-brand .name {
-//   font-family: Andada;
-//   font-size: 1.25em;
-// }
-
-
-
-// .navbar-inverse {
-//   background: linear-gradient(125deg, $main, $analog1);
-// }
+.sidebar-box {
+  background: linear-gradient(150deg, $analog1, $analog3);
+}
+.sidebar {
+  color: white;
+}
+.sidebar-box a {
+  color: $bright;
+  text-decoration: none;
+}
+.sidebar-box a:hover {
+  color: lightgray;
+}
