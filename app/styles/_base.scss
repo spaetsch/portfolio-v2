@@ -3,39 +3,13 @@
   margin-top: 1em;
 }
 
-/* ---- NAV / HEADER ---- */
 
-.navbar-inverse p,
-.navbar-inverse .navbar-text,
-.navbar-inverse .navbar-nav > li > a {
-  color: white;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: $bright;
-}
-
-
-.navbar-brand .name {
-  font-family: Andada;
-  font-size: 1.25em;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: Andada;
-
-}
-body{
-  font-family: Quicksand;
-  padding-top: 0;
-}
-
-.navbar-inverse {
-  background: linear-gradient(125deg, $main, $analog1);
-}
 
 ul {
   padding-left:1.3em;
 }
+
+
 
 /* more colors */
 
