@@ -40,6 +40,73 @@
           <a name="projects"></a>
           <h2>Projects</h2>
           <div class="row">
+
+            <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="void(0)">
+              <div class="hovereffect">
+                <img class ="img-responsive" src="img/interflick-full.jpg">
+               <div class="overlay centered">
+                  <div class="overlay-content">
+                    <h2>Flickteresting</h2>
+                    <p>Displays interesting Flickr photos on given date.</p>
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-flickint">
+                      Details
+                    </button>
+                    <a type="button" class="btn btn-primary btn-xs" href="http://dysfunctional-queen.surge.sh/" target="_blank" >
+                      Try It!
+                    </a>
+                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/spaetsch/angular-flickr" target="_blank">
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Corresponding Modal -->
+            <div class="modal fade" id="modal-flickint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Flickteresting</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Overview</h5>
+                    <ul>
+                      <li>Web app that displays the most "interesting" Flickr photos on a given date</li>
+                      <li>Solo project</li>
+                    </ul>
+                    <div class="modal-img">
+                      <img class="img" src="img/interflick-calendar.jpg">
+                    </div>
+                    <h5>Description</h5>
+                    <p>The app displays the most "interesting" photos from Flickr on a given date. Flickr determines "interestingness" based on a number of factors, including: where clickthroughs are originating; who comments on it and when; who marks it as a favorite. Using the date-picker, the user selects a date and can display the search results in a grid or list format. Clicking on a given photo displays modal with a larger version of the photo and a link to the original on Flickr.</p>
+                    <h5>Technologies</h5>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <ul>
+                          <li>AngularJS</li>
+                          <li>Flickr API</li>
+                          <li>Grunt</li>
+                          <li>Yeoman</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-9">
+                        <ul>
+                          <li>I implemented all of the <mark>AngularJS</mark> controllers, factories and data-binding as well as the <mark>Flickr API</mark> calls in this solo project.</li>
+                          <li>This was my first project using <mark>Grunt</mark> and <mark>Yeoman</mark> for task running and scaffolding.
+                        </ul>
+                      </div>
+                    </div>
+                  <div class="modal-footer">
+                    <a type="button" class="btn btn-primary" href="http://dysfunctional-queen.surge.sh/" target="_blank" >Try It!</a>
+                    <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/angular-flickr" target="_blank" >Github</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div><!--Modal-->
+
             <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12 " onclick="void(0)">
               <div class="hovereffect" >
                 <img class="img-responsive project-img" src="img/sluvt-london-full.jpg">
@@ -101,74 +168,6 @@
                   <div class="modal-footer">
                     <a type="button" class="btn btn-primary" href="http://kmskelton.github.io/" target="_blank" >Try It!</a>
                     <a type="button" class="btn btn-primary" href="https://github.com/KMSkelton/virtualTour" target="_blank" >Github</a>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div><!--Modal-->
-
-            <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="void(0)">
-              <div class="hovereffect">
-                <img class ="img-responsive" src="img/SC-full.jpg">
-                <div class="overlay centered">
-                  <div class="overlay-content">
-                    <h2>Surplus Connection</h2>
-                    <p>Connects nonprofits with donors and shipping</p>
-                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-SC">
-                      Details
-                    </button>
-                    <a type="button" class="btn btn-primary btn-xs" href="http://kmskelton.github.io/" target="_blank" >
-                      Try It!
-                    </a>
-                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/KMSkelton/virtualTour" target="_blank">
-                      Github
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Corresponding Modal -->
-            <div class="modal fade" id="modal-SC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Surplus Connection</h4>
-                  </div>
-                  <div class="modal-body">
-                    <h5>Overview</h5>
-                    <ul>
-                      <li>Web app that connects nonprofits with donors of surplus goods and shipping space</li>
-                      <li>Built from concept to completion in four days by a team of four</li>
-                    </ul>
-                    <div class="modal-img">
-                      <img class="img" src="img/SC-nonprof.jpg">
-                    </div>
-                    <h5>Description</h5>
-                    <p>After logging in, the app displays a portal appropriate to the user's role: surplus goods donor, shipping space donor, or non-profit. In each portal, the user can either post to the site: surplus and shipping donors can post donations and non-profits can post to their wish list. Alternately users can search what's already been posted by other users to see if they can fulfill a need or claim a donation. For instance, a non-profit can search for "shoes" that can be delivered to "nigeria". The app can check if there's a match and return results that show Macy's has donated shoes and DHL has donated shipping service that can pick it up at Macy's and deliver it to Nigeria. Then the non-profit can claim that match and get their need fulfilled.</p>
-                    <h5>Technologies</h5>
-                    <div class="row">
-                      <div class="col-md-3">
-                        <ul>
-                          <li>AngularJS</li>
-                          <li>Sass</li>
-                          <li>Bourbon</li>
-                          <li>Neat</li>
-                          <li>MongoDB</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-9">
-                        <ul>
-                          <li>I implemented the <mark>AngularJS</mark> data binding, templates, and controllers used throughout the app</li>
-                          <li>I contributed to the style and layout of the site using <mark>Sass</mark> and <mark>Neat</mark></li>
-                        </ul>
-                      </div>
-                    </div>
-                  <div class="modal-footer">
-                    <a type="button" class="btn btn-primary" href="https://surplusconnection.herokuapp.com/" target="_blank" >Try It!</a>
-                    <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/surplusconnection" target="_blank" >Github</a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   </div>
                 </div>
@@ -242,72 +241,6 @@
 
             <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="void(0)">
               <div class="hovereffect">
-                <img class ="img-responsive" src="img/interflick-full.jpg">
-               <div class="overlay centered">
-                  <div class="overlay-content">
-                    <h2>Flickteresting</h2>
-                    <p>Displays interesting Flickr photos on given date.</p>
-                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-flickint">
-                      Details
-                    </button>
-                    <a type="button" class="btn btn-primary btn-xs" href="http://dysfunctional-queen.surge.sh/" target="_blank" >
-                      Try It!
-                    </a>
-                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/spaetsch/angular-flickr" target="_blank">
-                      Github
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Corresponding Modal -->
-            <div class="modal fade" id="modal-flickint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Flickteresting</h4>
-                  </div>
-                  <div class="modal-body">
-                    <h5>Overview</h5>
-                    <ul>
-                      <li>Web app that displays the most "interesting" Flickr photos on a given date</li>
-                      <li>Solo project</li>
-                    </ul>
-                    <div class="modal-img">
-                      <img class="img" src="img/interflick-calendar.jpg">
-                    </div>
-                    <h5>Description</h5>
-                    <p>The app displays the most "interesting" photos from Flickr on a given date. Flickr determines "interestingness" based on a number of factors, including: where clickthroughs are originating; who comments on it and when; who marks it as a favorite. Using the date-picker, the user selects a date and can display the search results in a grid or list format. Clicking on a given photo displays modal with a larger version of the photo and a link to the original on Flickr.</p>
-                    <h5>Technologies</h5>
-                    <div class="row">
-                      <div class="col-md-3">
-                        <ul>
-                          <li>AngularJS</li>
-                          <li>Flickr API</li>
-                          <li>Grunt</li>
-                          <li>Yeoman</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-9">
-                        <ul>
-                          <li>I implemented all of the <mark>AngularJS</mark> controllers, factories and data-binding as well as the <mark>Flickr API</mark> calls in this solo project.</li>
-                          <li>This was my first project using <mark>Grunt</mark> and <mark>Yeoman</mark> for task running and scaffolding.
-                        </ul>
-                      </div>
-                    </div>
-                  <div class="modal-footer">
-                    <a type="button" class="btn btn-primary" href="http://dysfunctional-queen.surge.sh/" target="_blank" >Try It!</a>
-                    <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/angular-flickr" target="_blank" >Github</a>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div><!--Modal-->
-
-            <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="void(0)">
-              <div class="hovereffect">
                 <img class ="img-responsive" src="img/serenity-full.jpg">
                 <div class="overlay centered">
                   <div class="overlay-content">
@@ -362,6 +295,74 @@
                   <div class="modal-footer">
                     <a type="button" class="btn btn-primary" href="../projects/serene/app/index.html" target="_blank" >Try It!</a>
                     <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/serene-transitions" target="_blank" >Github</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div><!--Modal-->
+
+            <div class="mt col-lg-4 col-md-4 col-sm-6 col-xs-12" onclick="void(0)">
+              <div class="hovereffect">
+                <img class ="img-responsive" src="img/SC-full.jpg">
+                <div class="overlay centered">
+                  <div class="overlay-content">
+                    <h2>Surplus Connection</h2>
+                    <p>Connects nonprofits with donors and shipping</p>
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modal-SC">
+                      Details
+                    </button>
+                    <a type="button" class="btn btn-primary btn-xs" href="http://kmskelton.github.io/" target="_blank" >
+                      Try It!
+                    </a>
+                    <a type="button" class="btn btn-primary btn-xs" href="https://github.com/KMSkelton/virtualTour" target="_blank">
+                      Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Corresponding Modal -->
+            <div class="modal fade" id="modal-SC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Surplus Connection</h4>
+                  </div>
+                  <div class="modal-body">
+                    <h5>Overview</h5>
+                    <ul>
+                      <li>Web app that connects nonprofits with donors of surplus goods and shipping space</li>
+                      <li>Built from concept to completion in four days by a team of four</li>
+                    </ul>
+                    <div class="modal-img">
+                      <img class="img" src="img/SC-nonprof.jpg">
+                    </div>
+                    <h5>Description</h5>
+                    <p>After logging in, the app displays a portal appropriate to the user's role: surplus goods donor, shipping space donor, or non-profit. In each portal, the user can either post to the site: surplus and shipping donors can post donations and non-profits can post to their wish list. Alternately users can search what's already been posted by other users to see if they can fulfill a need or claim a donation. For instance, a non-profit can search for "shoes" that can be delivered to "nigeria". The app can check if there's a match and return results that show Macy's has donated shoes and DHL has donated shipping service that can pick it up at Macy's and deliver it to Nigeria. Then the non-profit can claim that match and get their need fulfilled.</p>
+                    <h5>Technologies</h5>
+                    <div class="row">
+                      <div class="col-md-3">
+                        <ul>
+                          <li>AngularJS</li>
+                          <li>Sass</li>
+                          <li>Bourbon</li>
+                          <li>Neat</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-9">
+                        <ul>
+                          <li>I implemented the <mark>AngularJS</mark> data binding, templates, and controllers used throughout the app</li>
+                          <li>I contributed to the style and layout of the site using <mark>Sass</mark> and <mark>Neat</mark></li>
+                        </ul>
+                      </div>
+                    </div>
+                  <div class="modal-footer">
+                    <a type="button" class="btn btn-primary" href="https://surplusconnection.herokuapp.com/" target="_blank" >Try It!</a>
+                    <a type="button" class="btn btn-primary" href="https://github.com/spaetsch/surplusconnection" target="_blank" >Github</a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   </div>
                 </div>
